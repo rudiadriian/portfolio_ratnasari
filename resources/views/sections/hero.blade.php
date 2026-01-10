@@ -32,7 +32,7 @@
              x-data="{
                 activeSlide: 0,
                 slides: [
-                      '{{ asset('1.jpeg') }}',
+                    '{{ asset('1.jpeg') }}',
                     '{{ asset('2.jpeg') }}',
                     '{{ asset('3.jpeg') }}',
                     '{{ asset('4.jpeg') }}'

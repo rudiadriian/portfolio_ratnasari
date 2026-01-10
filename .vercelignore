@@ -1,0 +1,25 @@
+# Abaikan folder berat yang tidak dipakai saat runtime
+/node_modules
+/tests
+/storage/*.key
+/storage/logs/*.log
+/.git
+/.github
+/.idea
+/.vscode
+
+# Abaikan file testing & dokumentasi
+phpunit.xml
+README.md
+LICENSE
+package.json
+package-lock.json
+webpack.mix.js
+vite.config.js
+tailwind.config.js
+postcss.config.js
+
+# Abaikan file sumber asset (karena sudah di-build ke public/build)
+/resources/css
+/resources/js
+/resources/scss

@@ -17,10 +17,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/cek-file', function () {
-    $files = scandir(public_path());
-    return [
-        'path_public' => public_path(),
-        'isi_folder' => $files
-    ];
-});
+

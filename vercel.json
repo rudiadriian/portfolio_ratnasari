@@ -12,7 +12,7 @@
             "dest": "/public/build/$1"
         },
         {
-            "src": "/(.*\\.(png|jpg|jpeg|gif|ico|svg|css|js))",
+            "src": "/(.*\\.(png|jpg|jpeg|gif|ico|svg|css|js|woff|woff2|ttf|eot))",
             "dest": "/public/$1"
         },
         {
@@ -23,7 +23,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://accurate-ratna.vercel.app",
+        "APP_URL": "https://accurate-ratna.vercel.app/",
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",

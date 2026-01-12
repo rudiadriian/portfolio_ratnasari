@@ -1,10 +1,6 @@
-/node_modules
-/vendor
 /tests
 /storage/*.key
 /storage/logs/*.log
-/.git
 /.github
 /.idea
 /.vscode
-.env
